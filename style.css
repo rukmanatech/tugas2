@@ -1,0 +1,280 @@
+	*{
+			margin: 0px;
+			padding: 0px;
+		}
+		.logo{
+			width: 150px;
+			height: auto;
+			padding-left: 35px;
+		}
+		.logout{
+			position: absolute;
+			width: 40px;
+			height: auto;
+			float: right;
+			color:white;
+			right: 55px;
+			top: 10px
+			-webkit-transition: scale(2), -webkit-transform: scale(2); /* Safari */
+    		transition: scale(2);
+		}
+		.logout:hover{
+			 width:50px;
+   			 height: 50px;
+
+		}
+		#heading{
+			overflow: hidden;
+			background-color: rgba(0,0,0,0.5);
+			
+		}
+		#heading h4{
+
+			
+			position: absolute;
+			color:white;
+			float: right;
+			font-family: arial ;
+			top: 50px;
+			right: 50px;
+			
+		}
+		
+
+		#tengah{
+			position: absolute;
+			background-color: rgba(0,0,0,0.6);
+			top: 0%;
+			left: 33%;
+			width: 399px;
+			height: 507px;
+			padding: 80px 40px;
+		}
+		#tengah h4{
+
+			text-align: center;
+			font-style: inherit;
+			font-family: arial;
+			color: white;
+			font-size:18px; 
+			padding-bottom: 10px;
+
+		}
+
+		#tengah h2{
+
+			text-align: center;
+			font-style: inherit;
+			font-family: sans-serif;
+			color: white;
+			font-size:20px;
+			font-weight: bold;
+			color: #6bc500;
+			padding-bottom: 10px;
+		}
+
+		#tengah h3{
+
+			text-align: center;
+			font-style: inherit;
+			font-family:sans-serif;
+			color: white;
+			font-size:20px;
+			font-weight: bold;
+			padding-bottom: 10px;
+		}
+		
+		
+			#tengah p{
+
+			text-align: center;
+			font-style: inherit;
+			font-family: arial;
+			color: white;
+			font-size:17.5px;
+
+			
+		}
+			#tengah h5{
+			text-align: center;
+			font-style: inherit;
+			font-family: sans-serif;
+			color: white;
+			font-size:25px;
+			font-weight: bold;
+
+
+			}
+		#jam{
+			text-align: center;
+			font-style: inherit;
+			font-family: arial;
+			font-weight: bold;
+			color: white;
+			font-size:35px;
+			padding-top: 30px;
+
+			
+		}
+		.tanggal{
+			position: absolute;
+			text-align: center;
+			font-style: inherit;
+			font-family: arial;
+			color: white;
+			font-size:35px;
+			padding-top: 50px;
+			top: 20px;
+		}
+			
+		
+		body {
+  			width: 100%;
+ 		    height: 400px;
+  			position: relative;
+  			background: url("img/intro-bg.jpg");
+  			background-size: cover;
+  			
+		}
+		footer{
+			position: absolute;
+			background:repeating-linear-gradient(90deg, #509103 0%, #509103 33%,#57980a 33%, #57980a 68%);
+			
+			top: 549px;
+			left: auto;
+			width: 100%;
+			height: 18px;
+			padding: 50px 0px;
+		}
+		
+
+		.curriculum{
+			position: absolute;
+			width: 75px;
+			height: auto;
+			float: left;
+			top: 20px;
+			left: 30px;
+			-webkit-transition: scale(2) -webkit-transform: scale(2); /* Safari */
+    		transition: scale(2);
+
+
+		}
+		.curriculum:hover{
+			width: 90px;
+			height: 90px;
+		}
+		.speed:hover{
+			 	width:90px;
+   			 height: 90px;
+		}
+		.speed{
+			position: absolute;
+			width: 75px;
+			height: auto;
+			float: left;
+			top: 20px;
+			left: 500px;
+			-webkit-transition: scale(2) -webkit-transform: scale(2); /* Safari */
+    		transition: scale(2);
+			
+		}
+		.speed:hover{
+			 width:90px;
+   			 height: 90px;
+		}
+		.backup{
+			position: absolute;
+			width: 75px;
+			height: auto;
+			float: left;
+			top: 20px;
+			right: 300px;
+			-webkit-transition: scale(2) -webkit-transform: scale(2); /* Safari */
+    		transition: scale(2)
+
+		}
+		.backup:hover{
+			width: 90px;
+			height: 90px;
+		}
+		.teks1 h5{
+			position: absolute;
+			color: white;
+			float: left;
+			top: 30px;
+			left: 150px;
+			font-family: arial;
+			font-size: 20px;
+		}
+		.teks1 p{
+			position: absolute;
+			width: 200px;
+			color: white;
+			float: left;
+			top: 65px;
+			left: 150px;
+			font-family: arial;
+			font-size: 10px;
+		}
+
+		.teks2 h5{
+			position: absolute;
+			color: white;
+			float: left;
+			top: 30px;
+			left: 600px;
+			font-family: arial;
+			font-size: 20px;
+		}
+
+		.teks2 p{
+			position: absolute;
+			width: 200px;
+			color: white;
+			float: left;
+			top: 65px;
+			left: 600px;
+			font-family: arial;
+			font-size: 10px;
+		}
+
+			.teks3 h5{
+			position: absolute;
+			color: white;
+			float: left;
+			top: 30px;
+			right: 120px;
+			font-family: arial;
+			font-size: 20px;
+		}
+
+		.teks3 p{
+			position: absolute;
+			width: 200px;
+			color: white;
+			float: left;
+			top: 65px;
+			right: 67px;
+			font-family: arial;
+			font-size: 10px;
+		}
+		
+
+		@media only screen and (max-width:800px) {
+  /* For tablets: */
+  #heading {
+    width: 80%;
+    padding: 0;
+  }
+  footer {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  #tengah, .#heading, footer {
+    width: 100%;
+  }
+}
+		
